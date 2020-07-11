@@ -1,7 +1,5 @@
 name: Publish Docker
 on:
-  schedule:
-    - cron: '0 10 */7 * *'
   push:
     branches:
       - 'master'
