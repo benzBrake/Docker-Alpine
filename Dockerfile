@@ -1,8 +1,8 @@
 #
-# Alpine 3.9 CURL, HTTPS, CST_TIMEZONE
+# Alpine 3.10 CURL, HTTPS, CST_TIMEZONE
 #
 
-FROM alpine:3.9
+FROM alpine:3.10
 LABEL maintainer="Ryan Lieu <github-benzBrake@woai.ru>"
 
 ONBUILD ARG TZ=Asia/Shanghai
