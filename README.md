@@ -1,16 +1,27 @@
 # Docker-Alpine
+
 ## Description
 
 This is possible thanks to the work from [uggedal](https://github.com/uggedal) on packaging Alpine Linux for Docker.
 
 This project is now build on top of official [Alpine Linux](https://hub.docker.com/_/) image, only including a few convenience packages.
 
+## Supported architecture
 
-## Supported tags and respective Dockerfile links
-- [latest](https://github.com/benzBrake/Alpine-Docker/blob/arm32v7/Dockerfile)
-- [3.7](https://github.com/benzBrake/Alpine-Docker/blob/arm32v7/Dockerfile)
+- arm
+- s390x
+- ppc64le
+- amd64
+- arm64
+- 386
 
-
+## Supported tags
+- latest
+- 3.11
+- 3.10
+- 3.9
+- 3.8
+- 3.7
 
 ## Included packages
 
