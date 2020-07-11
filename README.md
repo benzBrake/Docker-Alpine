@@ -1,5 +1,5 @@
 # Docker-Alpine
-
+![Publish Docker](https://github.com/benzBrake/Docker-Alpine/workflows/Publish%20Docker/badge.svg)
 ## Description
 
 This is possible thanks to the work from [uggedal](https://github.com/uggedal) on packaging Alpine Linux for Docker.
