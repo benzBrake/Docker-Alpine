@@ -32,7 +32,7 @@ jobs:
           echo "GIT_REF=$(git symbolic-ref -q --short HEAD || git describe --tags --exact-match)" >> $GITHUB_ENV
 
       - name: Change base image version
-        run: sed -i "s#alpine:3.15#alpine:${{ env.VERSION }}}#" Dockerfile
+        run: sed -i "s#alpine:3.15#alpine:${{ env.VERSION }}#" Dockerfile
 
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v1
