@@ -17,6 +17,8 @@ This project is now build on top of official [Alpine Linux](https://hub.docker.c
 
 ## Supported tags
 - latest
+- 3.17
+- 3.16
 - 3.15
 - 3.14
 - 3.13
